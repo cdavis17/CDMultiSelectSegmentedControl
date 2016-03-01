@@ -13,6 +13,7 @@
 		833A905C1C84BC0600DAFD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A905B1C84BC0600DAFD4E /* Assets.xcassets */; };
 		833A905F1C84BC0600DAFD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833A905D1C84BC0600DAFD4E /* LaunchScreen.storyboard */; };
 		833A906A1C84BC0600DAFD4E /* CDMultiSelectSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90691C84BC0600DAFD4E /* CDMultiSelectSegmentedControlTests.swift */; };
+		833A90751C84BC5400DAFD4E /* CDMultiSelectSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A90741C84BC5400DAFD4E /* CDMultiSelectSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		833A90651C84BC0600DAFD4E /* CDMultiSelectSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDMultiSelectSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A90691C84BC0600DAFD4E /* CDMultiSelectSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDMultiSelectSegmentedControlTests.swift; sourceTree = "<group>"; };
 		833A906B1C84BC0600DAFD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833A90741C84BC5400DAFD4E /* CDMultiSelectSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMultiSelectSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				833A90541C84BC0600DAFD4E /* AppDelegate.swift */,
 				833A90561C84BC0600DAFD4E /* ViewController.swift */,
+				833A90741C84BC5400DAFD4E /* CDMultiSelectSegmentedControl.swift */,
 				833A90581C84BC0600DAFD4E /* Main.storyboard */,
 				833A905B1C84BC0600DAFD4E /* Assets.xcassets */,
 				833A905D1C84BC0600DAFD4E /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				833A90571C84BC0600DAFD4E /* ViewController.swift in Sources */,
+				833A90751C84BC5400DAFD4E /* CDMultiSelectSegmentedControl.swift in Sources */,
 				833A90551C84BC0600DAFD4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CDMultiSelectSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.D2BusinessAlliance.CDMultiSelectSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CDMultiSelectSegmentedControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.D2BusinessAlliance.CDMultiSelectSegmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +394,7 @@
 				833A90701C84BC0600DAFD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833A90711C84BC0600DAFD4E /* Build configuration list for PBXNativeTarget "CDMultiSelectSegmentedControlTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +403,7 @@
 				833A90731C84BC0600DAFD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
